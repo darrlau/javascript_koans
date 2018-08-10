@@ -102,43 +102,12 @@ describe("About Applying What We Have Learnt", function() {
 
     ingredientCount = count;                          
 
-// (3) ["artichoke", "sundried tomatoes", "mushrooms"]
-// (4) ["roma", "sundried tomatoes", "goats cheese", "rosemary"]
-// (3) ["black beans", "jalapenos", "mushrooms"]
-// (3) ["blue cheese", "garlic", "walnuts"]
-// (3) ["spinach", "kalamata olives", "sesame seeds"]
-
-// flatten count
-                           
-  // iterate over count, for each ingredient
-  // push the ingredient into ingredientCount, if found +1, if not, 1
-
 
 
     expect(ingredientCount['mushrooms']).toBe(2);
   });
 
   /*
-  products = [
-       { name: "Sonoma", ingredients: ["artichoke", "sundried tomatoes", "mushrooms"], containsNuts: false },
-       { name: "Pizza Primavera", ingredients: ["roma", "sundried tomatoes", "goats cheese", "rosemary"], containsNuts: false },
-       { name: "South Of The Border", ingredients: ["black beans", "jalapenos", "mushrooms"], containsNuts: false },
-       { name: "Blue Moon", ingredients: ["blue cheese", "garlic", "walnuts"], containsNuts: true },
-       { name: "Taste Of Athens", ingredients: ["spinach", "kalamata olives", "sesame seeds"], containsNuts: true }
-    ];
-
-var ingrediantCount = { 
-  artichoke: 1,
-  sundried tomatoes: 2,
-  mushrooms: 2,
-  roma: 1,
-  goats cheese: 1,
-  rosemary: 1,
-  black beans: 1,
-  jalapenos: 1,
-  blue cheese: 1,
-}
-  */
 
   /*********************************************************************************/
   /* UNCOMMENT FOR EXTRA CREDIT */
